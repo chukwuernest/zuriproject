@@ -1,0 +1,42 @@
+*,
+::after::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-evenly;
+  border: 0.1rem solid rgb(50, 50, 61);
+  padding: 0.5rem;
+}
+.search {
+  text-decoration: none;
+  list-style-type: none;
+
+  padding: 0.5rem;
+}
+.search input {
+  width: 25rem;
+  height: 1.3rem;
+}
+.header-ul ul {
+  list-style-type: none;
+  display: flex;
+
+  padding: 0.5rem;
+}
+.header-ul ul li {
+  margin: auto;
+}
+.header-ul ul li a:hover {
+  cursor: pointer;
+  color: rgb(123, 118, 93);
+  font-size: 1.2rem;
+}
+.header-ul ul li a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
