@@ -4,10 +4,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #00b09b;
+  background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  min-height: 100vh;
+  text-transform: capitalize;
+}
 
+.text-gray {
+  color: #aaa;
+}
+.badge {
+  margin-left: 140px;
+}
+.btn {
+  margin: 0 20px;
+}
 .header {
   display: flex;
-  text-transform: capitalize;
+
   justify-content: space-evenly;
   border: 0.1rem solid rgb(50, 50, 61);
   padding: 0.5rem;
@@ -39,4 +55,7 @@
 .header-ul ul li a {
   text-decoration: none;
   margin-right: 1rem;
+}
+.majorHead {
+  text-transform: capitalize;
 }
